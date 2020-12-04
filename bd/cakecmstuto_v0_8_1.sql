@@ -6650,8 +6650,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `uuid`, `active`, `created`, `modified`) VALUES
-(1, 'cakephp', 'cakephp@example.com', '$2y$10$iBI.6gNPxKfepjyRSDOcweqT6p6Tkf.ZkNsbIKn9AKkQvjWcvu/42', '7ffcb25d-16df-419a-9363-a5d6bdbdb0d0', 0, '2020-08-30 12:25:57', '2020-09-29 16:28:39'),
-(2, 'admin', 'admin@admin.com', '$2y$10$AQvpqlMoXhHtjad/4RsVyOw9Epw7XVmltfCDavvzICJd1AFIeYVda', '207d7070-3653-473a-bbcb-6ba835ce605b', 0, '2020-09-09 22:05:30', '2020-09-29 16:28:45'),
+(1, 'cakephp', 'cakephp@example.com', '$2y$10$iBI.6gNPxKfepjyRSDOcweqT6p6Tkf.ZkNsbIKn9AKkQvjWcvu/42', '7ffcb25d-16df-419a-9363-a5d6bdbdb0d0', 1, '2020-08-30 12:25:57', '2020-09-29 16:28:39'),
+(2, 'admin', 'admin@admin.com', '$2y$10$AQvpqlMoXhHtjad/4RsVyOw9Epw7XVmltfCDavvzICJd1AFIeYVda', '207d7070-3653-473a-bbcb-6ba835ce605b', 1, '2020-09-09 22:05:30', '2020-09-29 16:28:45'),
 (7, 'apilon', 'apilon@cmontmorency.qc.ca', '$2y$10$JUFdTWjGMWsdDd4fDmSpQOugxMJSumERgCMRChYe.jHiI9rCjd70S', '29a3fc66-4349-423d-b7a2-57324b94e9cb', 1, '2020-09-29 18:25:02', '2020-09-29 18:25:54'),
 (8, 'andre', 'andre@andre.me', '$2y$10$Hpz5vMzKSy6jjnZAYFSiceTWT.7iqN.m57bmP4kiKJlpOR4zsYHw2', '9636fc6c-89ef-4976-a6fc-fb15c4a05325', 1, '2020-12-03 20:01:21', '2020-12-04 17:53:38');
 
