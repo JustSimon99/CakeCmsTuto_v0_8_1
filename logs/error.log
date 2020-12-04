@@ -7734,3 +7734,91 @@ Referer URL: http://localhost/420-5b7/tests/section_8/cakecmstuto_0_8_1/kraj-reg
 Request URL: /api/users/8
 
 
+2020-12-04 19:55:03 Error: [Cake\Http\Exception\UnauthorizedException] You are not authorized to access that location. (C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\admad\cakephp-jwt-auth\src\Auth\JwtAuthenticate.php:264)
+#0 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(389): ADmad\JwtAuth\Auth\JwtAuthenticate->unauthenticated(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#1 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(317): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\Api\KrajRegionsController))
+#2 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Event\EventManager.php(328): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(112): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Controller\Controller.php(673): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#6 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(115): Cake\Controller\Controller->startupProcess()
+#7 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Api\KrajRegionsController))
+#8 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+Request URL: /api/kraj_regions/28
+
+
+2020-12-04 20:09:32 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::register() could not be found, or is not accessible. (C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Controller\Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'register',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /users/register
+
+
+2020-12-04 21:07:25 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'email' doesn't have a default value (C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\ORM\Table.php(2136): Cake\Database\Query->execute()
+#8 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\ORM\Table.php(2028): Cake\ORM\Table->_insert(Object(App\Model\Entity\User), Array)
+#9 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\ORM\Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#10 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\ORM\Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#11 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Database\Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#12 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\ORM\Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#13 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\ORM\Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#14 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\src\Controller\Api\UsersController.php(60): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#15 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\Api\UsersController->add()
+#16 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#17 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Api\UsersController))
+#18 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#28 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#30 C:\Ampps39\www\420-5b7\tests\section_8\cakecmstuto_0_8_1\webroot\index.php(40): Cake\Http\Server->run()
+#31 {main}
+Request URL: /api/users/register
+
+

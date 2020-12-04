@@ -56,6 +56,7 @@ class UsersController extends AppController {
         $user->uuid = Text::uuid();
         $user->active = true;
         $data = '';
+//        debug($user); die();
         $savedUser = $this->Users->save($user);
         if ($savedUser) {
             $message = 'Saved';

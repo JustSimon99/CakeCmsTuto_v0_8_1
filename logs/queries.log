@@ -16436,3 +16436,96 @@ UNION (SELECT ArticlesFiles.id AS `ArticlesFiles__id`, ArticlesFiles.article_id 
             WHERE kcu.TABLE_SCHEMA = 'cakecmstuto_v0_8_1' AND kcu.TABLE_NAME = 'kraj_regions' AND rc.TABLE_NAME = 'kraj_regions'
 2020-12-04 19:11:22 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'kraj_regions'
 2020-12-04 19:11:22 Debug: duration=1 rows=15 SELECT KrajRegions.id AS `KrajRegions__id`, KrajRegions.kod AS `KrajRegions__kod`, KrajRegions.nazev AS `KrajRegions__nazev` FROM kraj_regions KrajRegions
+2020-12-04 19:53:29 Debug: duration=3 rows=3 SHOW FULL COLUMNS FROM `kraj_regions`
+2020-12-04 19:53:29 Debug: duration=3 rows=1 SHOW INDEXES FROM `kraj_regions`
+2020-12-04 19:53:29 Debug: duration=25 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cakecmstuto_v0_8_1' AND kcu.TABLE_NAME = 'kraj_regions' AND rc.TABLE_NAME = 'kraj_regions'
+2020-12-04 19:53:29 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'kraj_regions'
+2020-12-04 19:53:29 Debug: duration=1 rows=15 SELECT KrajRegions.id AS `KrajRegions__id`, KrajRegions.kod AS `KrajRegions__kod`, KrajRegions.nazev AS `KrajRegions__nazev` FROM kraj_regions KrajRegions
+2020-12-04 19:54:24 Debug: duration=1 rows=15 SELECT KrajRegions.id AS `KrajRegions__id`, KrajRegions.kod AS `KrajRegions__kod`, KrajRegions.nazev AS `KrajRegions__nazev` FROM kraj_regions KrajRegions
+2020-12-04 20:04:09 Debug: duration=4 rows=8 SHOW FULL COLUMNS FROM `users`
+2020-12-04 20:04:09 Debug: duration=5 rows=1 SHOW INDEXES FROM `users`
+2020-12-04 20:04:09 Debug: duration=22 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cakecmstuto_v0_8_1' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2020-12-04 20:04:09 Debug: duration=3 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2020-12-04 20:09:52 Debug: duration=4 rows=8 SHOW FULL COLUMNS FROM `users`
+2020-12-04 20:09:52 Debug: duration=2 rows=1 SHOW INDEXES FROM `users`
+2020-12-04 20:09:52 Debug: duration=20 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cakecmstuto_v0_8_1' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2020-12-04 20:09:52 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2020-12-04 20:12:48 Debug: duration=4 rows=8 SHOW FULL COLUMNS FROM `users`
+2020-12-04 20:12:48 Debug: duration=2 rows=1 SHOW INDEXES FROM `users`
+2020-12-04 20:12:48 Debug: duration=23 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cakecmstuto_v0_8_1' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2020-12-04 20:12:48 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2020-12-04 20:19:49 Debug: duration=4 rows=8 SHOW FULL COLUMNS FROM `users`
+2020-12-04 20:19:49 Debug: duration=2 rows=1 SHOW INDEXES FROM `users`
+2020-12-04 20:19:49 Debug: duration=21 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cakecmstuto_v0_8_1' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2020-12-04 20:19:49 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2020-12-04 21:07:24 Debug: duration=4 rows=8 SHOW FULL COLUMNS FROM `users`
+2020-12-04 21:07:24 Debug: duration=7 rows=1 SHOW INDEXES FROM `users`
+2020-12-04 21:07:24 Debug: duration=19 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cakecmstuto_v0_8_1' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2020-12-04 21:07:24 Debug: duration=6 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2020-12-04 21:07:24 Debug: duration=0 rows=0 BEGIN
+2020-12-04 21:07:25 Debug: duration=5 rows=0 INSERT INTO users (username, password, uuid, active, created, modified) VALUES ('andre', '$2y$10$JHjCK4lTc9oAR3yRkByFquzAvhJuwCzlLum5y9.kkvd66qqPY6.VK', '0b224bb0-3cfb-421d-b1f3-a8e50aade757', 1, '2020-12-04 21:07:24', '2020-12-04 21:07:24')
+2020-12-04 21:07:25 Debug: duration=0 rows=0 ROLLBACK
+2020-12-04 21:08:11 Debug: duration=0 rows=0 BEGIN
+2020-12-04 21:08:11 Debug: duration=1 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'andre@andre.me' LIMIT 1
+2020-12-04 21:08:11 Debug: duration=6 rows=1 INSERT INTO users (username, email, password, uuid, active, created, modified) VALUES ('andre', 'andre@andre.me', '$2y$10$gzb6grMuroO1mWRo40E3hOSgyLdBYf2NUZzCNRPbYioH62VzdxOp.', 'aadc3072-6864-408b-aef0-e38a0a37ad8c', 1, '2020-12-04 21:08:11', '2020-12-04 21:08:11')
+2020-12-04 21:08:11 Debug: duration=0 rows=0 COMMIT
+2020-12-04 21:31:18 Debug: duration=4 rows=8 SHOW FULL COLUMNS FROM `users`
+2020-12-04 21:31:18 Debug: duration=2 rows=1 SHOW INDEXES FROM `users`
+2020-12-04 21:31:18 Debug: duration=21 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cakecmstuto_v0_8_1' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2020-12-04 21:31:18 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2020-12-04 21:33:52 Debug: duration=3 rows=8 SHOW FULL COLUMNS FROM `users`
+2020-12-04 21:33:52 Debug: duration=6 rows=1 SHOW INDEXES FROM `users`
+2020-12-04 21:33:52 Debug: duration=18 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cakecmstuto_v0_8_1' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2020-12-04 21:33:52 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2020-12-04 21:34:10 Debug: duration=0 rows=0 BEGIN
+2020-12-04 21:34:10 Debug: duration=1 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'jwtTest@jwttest.com' LIMIT 1
+2020-12-04 21:34:10 Debug: duration=3 rows=1 INSERT INTO users (username, email, password, uuid, active, created, modified) VALUES ('jwtTest', 'jwtTest@jwttest.com', '$2y$10$HgxSHBDtMlx5nffJptOdbOxyRKKB61WGrzwxZIwZC8ZCFynfp2l9W', '2467395c-858d-4a7c-9c5a-b03fc915cdc3', 1, '2020-12-04 21:34:10', '2020-12-04 21:34:10')
+2020-12-04 21:34:10 Debug: duration=0 rows=0 COMMIT
